@@ -1,5 +1,5 @@
-Proje Açıklaması:
-Strategic SOS Game (Stratejik SOS Oyunu), klasik SOS oyununu modern bir yaklaşımla geliştirerek 2 oyuncunun karşılıklı oynadığı, 3 tur süren ve puan tabanlı bir oyun olarak tasarlanmıştır. Oyuncular isimlerini girerek oyuna başlar ve her galibiyet için 100 puan kazanır. Oyun sonunda en yüksek puanı alan oyuncu kazanan olur.
+Strategic SOS Game (Stratejik SOS Oyunu),
+Klasik SOS oyununu modern bir yaklaşımla geliştirerek 2 oyuncunun karşılıklı oynadığı, 3 tur süren ve puan tabanlı bir oyun olarak tasarlanmıştır. Oyuncular isimlerini girerek oyuna başlar ve her galibiyet için 100 puan kazanır. Oyun sonunda en yüksek puanı alan oyuncu kazanan olur.
 
 Özellikler:
 
