@@ -1,0 +1,127 @@
+.game {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 60px); /* 7 hücre genişlik */
+  gap: 5px; /* Hücreler arası boşluk */
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  font-size: 20px; /* Daha küçük yazı boyutu */
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cell:hover {
+  background-color: #e6e6e6;
+}
+
+.cell:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.reset-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reset-button:hover {
+  background-color: #0056b3;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.next-round-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.next-round-button:hover {
+  background-color: #218838;
+}
+/* Başlangıç ekranı düzenlemesi */
+.name-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Ortala */
+  margin-top: 20px;
+}
+
+.name-inputs div {
+  margin-bottom: 15px; /* İsim girişleri arasına boşluk */
+}
+
+.name-inputs label {
+  font-size: 18px; /* Daha büyük ve okunaklı yazı */
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.name-inputs input {
+  padding: 8px;
+  font-size: 16px; /* Giriş kutusunun yazı boyutu */
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  width: 250px; /* Giriş kutusunun genişliği */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+}
+
+.name-inputs input:focus {
+  outline: none;
+  border-color: #007bff; /* Odaklanıldığında mavi çerçeve */
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+.start-button {
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.start-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.start-button:hover:not(:disabled) {
+  background-color: #218838;
+  transform: scale(1.05); /* Hafif büyüme efekti */
+}
